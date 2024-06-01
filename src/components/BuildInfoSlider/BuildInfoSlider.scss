@@ -1,0 +1,127 @@
+@import url("../../../public/fonts/GeneralSans/css/general-sans.css");
+@import url("../../../public/fonts/Satoshi/css/satoshi.css");
+
+.BuildInfoTabsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 0;
+}
+
+.BuildInfoTabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 64rem;
+    padding-bottom: 1.56rem;
+}
+
+.BuildBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1.25rem;
+    padding-bottom: 1.56rem;
+}
+
+.buttonTab {
+    border-radius: 0.875rem;
+    background: rgba(25, 25, 28, 0.88);
+    display: inline-flex;
+    height: 2.875rem;
+    padding: 0rem 1.0625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.BuildHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+}
+
+.BuildHeader h1 {
+    color: #F0F0F0;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.54);
+    font-size: 2rem;
+    font-family: GeneralSans-semibold;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+    width: 100%;
+}
+
+.tabcontent {
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 1.1875rem;
+    overflow: hidden;
+    height: 17.4rem;
+    background: url("../../../public/images/BuildInfoSliderBg.svg") no-repeat;
+}
+
+.BuildInfoSliderItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.BuildInfoSliderItemImg {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 26.3rem;
+}
+
+.BuildInfoSliderItemImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.BuildInfoSliderItemText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 30rem;
+    height: 100%;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 3.5rem;
+}
+
+.BuildInfoSliderItemText h2 {
+    color: #F0F0F0;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.54);
+    font-size: 1.5rem;
+    font-family: GeneralSans-semibold;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+    margin-bottom: 1.5rem;
+}
+
+.BuildInfoSliderItemText p {
+    color: #7B1DC6;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-family: GeneralSans-semibold;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buttonTab.active {
+    background: #7B1DC6;
+    color: #F0F0F0;
+}

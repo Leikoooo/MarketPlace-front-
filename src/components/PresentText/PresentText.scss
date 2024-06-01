@@ -1,0 +1,38 @@
+@import url("../../../public/fonts/GeneralSans/css/general-sans.css");
+@import url("../../../public/fonts/Satoshi/css/satoshi.css");
+
+
+.Info {
+    
+    display: flex;
+    flex-direction: column;
+    color: #F0F0F0;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.54);
+    font-size: 4rem;
+    font-family: GeneralSans-bold;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+    // убираем выделение текста
+    -webkit-user-select: none; /* для Safari */
+    -moz-user-select: none; /* для Firefox */
+    -ms-user-select: none; /* для IE */
+    user-select: none;
+}
+
+.UnderInfo {
+    margin-top: 1rem;
+    color: rgba(240, 240, 240, 0.58);
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.60);
+    font-size: 1.125rem;
+    font-family: Satoshi-Bold;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    -webkit-user-select: none; /* для Safari */
+    -moz-user-select: none; /* для Firefox */
+    -ms-user-select: none; /* для IE */
+    user-select: none;
+}

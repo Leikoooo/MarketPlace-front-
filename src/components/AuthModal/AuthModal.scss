@@ -1,0 +1,183 @@
+@import url("../../../public/fonts/GeneralSans/css/general-sans.css");
+
+
+.modal {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.modal.active {
+    transform: scale(1);
+}
+
+.modal__body {
+    display: inline-flex;
+    width: 60.25rem;
+    height: 36.1875rem;
+    flex-shrink: 0;
+    border-radius: 1.1875rem;
+    background: #0C0C0C;
+}
+
+.modal__content {
+    flex-shrink: 0;
+    width: 34rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal__header {
+    display: flex;
+    align-items: flex-start;
+    padding: 1.5rem 2rem;
+}
+
+.AuthModalImg {
+    width: 26.25rem;
+    height: 36.1875rem;
+    flex-shrink: 0;
+    border-radius: 1.1875rem 0 0 1.1875rem;
+}
+
+
+.authFormInput {
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.06);
+    width: 27.1875rem;
+    flex-shrink: 0;
+    height: 2.5rem;
+    border: none;
+    padding: 0 0.75rem;
+    font-size: 1rem;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.regFormInput {
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.06);
+    width: 27.1875rem;
+    flex-shrink: 0;
+    height: 2.5rem;
+    border: none;
+    padding: 0 0.75rem;
+    font-size: 1rem;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+
+.checkbox__group1 {
+    display: flex;
+    align-items: center;
+    margin-top: 2.44rem;
+    justify-content: space-between;
+}
+
+.checkbox__group2 {
+    display: flex;
+    align-items: center;
+    margin-top: 4.63rem;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.modal__forms {
+    display: flex;
+    flex-direction: column;
+    width: 27.1875rem;
+}
+
+.form__group_pass {
+    display: flex;
+    flex-direction: row;
+    width: 27.1875rem;
+    justify-content: space-between;
+    padding-top: 1.56rem;
+}
+
+.pass__group {
+    width: 12.6875rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+
+}
+
+.pass__input {
+    width: 12.6875rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.06);
+    flex-shrink: 0;
+    border: none;
+    padding: 0 0.75rem;
+    font-size: 1rem;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.password {
+    width: 12.6875rem;
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.06);
+    flex-shrink: 0;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.form__label {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.isRegister {
+    display: flex;
+    font-size: 1rem;
+    gap: 0.88rem;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.form__link {
+    color: #7B1DC6;
+    font-family: GeneralSans-Semibold;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.form__button {
+    width: 6.8125rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    background: #A128FF;
+    cursor: pointer;
+}

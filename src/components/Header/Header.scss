@@ -1,0 +1,173 @@
+// fonts from public\fonts\GeneralSans_Complete\Fonts\WEB\css\general-sans.css
+@import url("../../../public/fonts/GeneralSans/css/general-sans.css");
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.75rem;
+  background: #1A1A1B;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-left: 1.69rem;
+  padding-right: 1.69rem;
+  width: 64rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.logo {
+  color: #F0F0F0;
+  font-size: 1.125rem;
+  font-family: GeneralSans-Semibold, serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search {
+  display: flex;
+  fill: none;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: rgba(240, 240, 240, 0.58);
+  font-size: 0.875rem;
+  font-family: GeneralSans-Semibold;
+  font-style: normal;
+  font-weight: 600;
+  align-items: center;
+  line-height: normal;
+  letter-spacing: 0em;
+  justify-content: center;
+  text-align: left;
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}
+
+.searchField {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.links {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 1.0625rem;
+}
+
+.links a {
+  font-family: GeneralSans-Semibold;
+  font-size: 0.875rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials div {
+  height: 2.25rem;
+  width: 2.25rem;
+  flex-direction: column;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials svg {
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.avatarbnt{
+  z-index: 3;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #34bf75;
+  font-size: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+.auth {
+  display: flex;
+  font-family: GeneralSans-Semibold;
+  padding: 0.3125rem 1rem 0.4375rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.authLogin {
+  position: relative;
+  display: inline-block;
+  font-family: GeneralSans-Semibold;
+  padding: 0.3125rem 1rem 0.4375rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  border-radius: 0.625rem;
+  background-color: #1C1C1C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropitem {
+  color: white;
+  padding: 7px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.avatar {
+  background-color: #F0F0F0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.dropdown.active {
+  display: block;
+}

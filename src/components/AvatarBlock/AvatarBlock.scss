@@ -1,0 +1,45 @@
+@import url("../../../public/fonts/GeneralSans/css/general-sans.css");
+@import url("../../../public/fonts/Satoshi/css/satoshi.css");
+
+.AvatarBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.AvatarBlock__avatar{
+    width: 7.875rem;
+    height: 7.875rem;
+    flex-shrink: 0;
+    border-radius: 7.875rem;
+}
+
+.AvatarBlock__status span{
+    color: #818384;
+    font-style: normal;
+    font-family: GeneralSans-Semibold;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 0.9em;
+    
+}
+.dataContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    width: 18.875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
